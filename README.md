@@ -1,1 +1,1 @@
-my pofrtfolio project to shocase my skills
+my pofrtfolio project to showcase my skills
