@@ -1,1 +1,1 @@
-my pofrtfolio project to showcase my skills
+Goodluck nkemdilim Frontend developer portfolio 
