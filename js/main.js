@@ -46,3 +46,20 @@
       });
     });
   })();
+
+  const hamburger = document.querySelector('.hamburger');
+  const closeNav = document.querySelector('.close');
+  const side_nav = document.querySelector('.side-nav');
+  const nav_links = document.querySelectorAll('.side-nav a');
+
+  hamburger.addEventListener('click', () => {
+    side_nav.classList.toggle('active');
+  });
+  closeNav.addEventListener('click', () => {
+    side_nav.classList.remove('active');
+  });
+  nav_links.forEach(link => {
+    link.addEventListener('click', () => {
+      side_nav.classList.remove('active');
+    });
+  });
